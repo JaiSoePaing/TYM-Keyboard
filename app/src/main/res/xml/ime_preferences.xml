@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_name">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/themeNameArray"
+        android:entryValues="@array/themeValueArray"
+        android:key="choose_theme"
+        android:summary="@string/choose_theme_summ"
+        android:title="@string/choose_theme_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="hint_keylabel"
+        android:summary="@string/hint_keylabel_summ"
+        android:title="@string/hint_keylabel_title" />
+
+    <EditTextPreference
+        android:key="test_keyboard_text"
+        android:summary="@string/test_keyboard_summ"
+        android:title="@string/test_keyboard_title" />
+
+    <Preference
+        android:key="go_to_ime"
+        android:summary="@string/go_to_ime_setting_summ"
+        android:title="@string/go_to_ime_setting">
+    </Preference>
+    <Preference
+        android:key="choose_keyboard"
+        android:summary="@string/choose_keyboard_summ"
+        android:title="@string/choose_keyboard_title">
+    </Preference>
+    <Preference android:title="@string/faq">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://m.facebook.com/SoePaing.Mohnyin" />
+    </Preference>
+
+</PreferenceScreen>

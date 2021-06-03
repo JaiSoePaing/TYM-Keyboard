@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="@fraction/key_width"
+    android:horizontalGap="@fraction/h_key_gap"
+    android:verticalGap="@fraction/v_key_gap"
+    android:keyHeight="@dimen/key_height"
+    >
+    <Row>
+        <Key android:codes="43833" android:keyEdgeFlags="left" android:keyLabel="ꬹ" android:isModifier="true" />
+        <Key android:codes="43844" android:keyLabel="ꭄ" android:isModifier="true"/>
+        <Key android:codes="43848" android:keyLabel="ꭈ" android:isModifier="true"/>
+        <Key android:codes="43840" android:keyLabel="ꭀ" android:isModifier="true"/>
+        <Key android:codes="43879" android:keyLabel="ꭧ"  android:isModifier="true"/>
+        <Key android:codes="-1234" android:keyLabel="ꬁꬂꬃ" android:isModifier="true"/>
+        <Key android:codes="43888" android:keyLabel=":-)" android:isModifier="true"/>
+        <Key android:codes="43888" android:keyLabel="ꭰ" android:isModifier="true"/>
+        <Key android:codes="43890" android:keyLabel="ꭲ" android:isModifier="true"/>
+        <Key android:codes="43891" android:keyEdgeFlags="right" android:keyLabel="ꭳ" android:isModifier="true"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="43795" android:keyEdgeFlags="left" android:keyLabel="ꬓ" />
+        <Key android:codes="43798" android:keyLabel="ꬖ" />
+        <Key android:codes="43800" android:keyLabel="꬘" />
+        <Key android:codes="43810" android:keyLabel="ꬢ" />
+        <Key android:codes="43816" android:keyLabel="ꬨ" />
+        <Key android:codes="43801" android:keyLabel="꬙" />
+        <Key android:codes="43792" android:keyLabel="꬐" />
+        <Key android:codes="43794" android:keyLabel="ꬒ" />
+        <Key android:codes="43796" android:keyLabel="ꬔ" />
+        <Key android:codes="43815" android:keyEdgeFlags="right" android:keyLabel="꬧" />
+    </Row>
+    <Row>
+        <Key android:codes="43841"  android:keyEdgeFlags="left" android:keyLabel="ꭁ"/>
+        <Key android:codes="43875"  android:keyLabel="ꭣ" />
+        <Key android:codes="43845"  android:keyLabel="ꭅ" />
+        <Key android:codes="43842"  android:keyLabel="ꭂ" />
+        <Key android:codes="43857"  android:keyLabel="ꭑ" />
+        <Key android:codes="43893"  android:keyLabel="ꭵ" />
+        <Key android:codes="43864"  android:keyLabel="ꭘ" />
+        <Key android:codes="43865"  android:keyLabel="ꭙ" />
+        <Key android:codes="43873"  android:keyLabel="ꭡ" />
+        <Key android:codes="43881"  android:keyEdgeFlags="right" android:keyLabel="ꭩ" />
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" android:isModifier="true" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="43808" android:keyLabel="ꬠ" />
+        <Key android:codes="43799" android:keyLabel="꬗" />
+        <Key android:codes="43793" android:keyLabel="ꬑ" />
+        <Key android:codes="43813" android:keyLabel="ꬥ" />
+        <Key android:codes="43811" android:keyLabel="ꬣ" />
+        <Key android:codes="43797" android:keyLabel="ꬕ" />
+        <Key android:codes="43863" android:keyWidth="8%p"  android:keyLabel="ꭗ" />
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:isModifier="true" android:keyWidth="14.5%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-2" android:keyLabel="၁၂၃" android:keyWidth="11%p" android:keyEdgeFlags="left" android:isModifier="true"/>
+        <!--
+            android:codes: -101 is not a framework-defined key code but a key code that is
+            privately defined in com.example.android.softkeyboard.LatinKeyboardView.
+        -->
+        <Key android:codes="-101" android:keyIcon="@drawable/sym_keyboard_language_switch"
+            android:keyWidth="11%p" android:isModifier="true"/>
+
+        <Key android:codes="-202" android:keyLabel="☺"
+            android:keyWidth="9%p" android:isModifier="true"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="34%p" android:isRepeatable="true" android:isModifier="true"/>
+        <Key android:codes="4171,4170" android:keyLabel="၊  ။"
+            android:keyWidth="11%p" android:isModifier="true"/>
+        <Key android:codes="-4" android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="18%p" android:keyEdgeFlags="right" android:isModifier="true"/>
+    </Row>
+</Keyboard>
+    
